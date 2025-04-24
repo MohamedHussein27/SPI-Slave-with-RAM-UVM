@@ -63,3 +63,29 @@ All assertions are passed!
 
 - UVM Report
 ![Report Wrapper](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/Report%20Wrapper.png)
+
+### SPI Slave
+
+- UVM Structure
+![Slave UVM](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/Slave%20UVM%20structure.png)
+
+- UVM Report
+![Report Wrapper](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/Report%20Slave.png)
+
+### RAM
+
+- UVM Structure
+![Slave UVM](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/RAM%20UVM%20Structure.png)
+
+- UVM Report
+![Report Wrapper](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/Report%20RAM.png)
+
+-- 
+For more details try checking the [project Documentation](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Documentation/SPI%20using%20UVM.pdf)
+
+---
+
+## Contact Me!
+- [Email](mailto:Mohamed_Hussein2100924@outlook.com)
+- [WhatsApp](https://wa.me/+2001097685797)
+- [LinkedIn](https://www.linkedin.com/in/mohamed-hussein-274337231)
