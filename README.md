@@ -8,7 +8,15 @@ The testbench is modular and reusable, leveraging **multiple UVM agents** and **
 ---
 
 ## SPI Structure
-![SPI general](https://github.com/MohamedHussein27/I2C-Protocl-with-three-different-slaves/blob/main/Images/General%20Structure.png)
+![SPI general](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/SPI%20RAM%20general.png)
+
+### Specifications
+-	In write address state: first received bit by MOSI is **“0”** followed by two other zeros **“2’b00”**.
+-	In write data state: first received bit by MOSI is **“0”** followed by zero then one **“2’b01”**.
+-	In read address state: first received bit by MOSI is **“1”** followed by one then zero **“2’b10”**.
+-	In read data state: first received bit by MOSI is **“1”** followed by two other ones **“2’b11”**.
+
+---
 
 ## Key Features
 
