@@ -15,6 +15,7 @@ The testbench is modular and reusable, leveraging **multiple UVM agents** and **
 -	In write data state: first received bit by MOSI is **“0”** followed by zero then one **“2’b01”**.
 -	In read address state: first received bit by MOSI is **“1”** followed by one then zero **“2’b10”**.
 -	In read data state: first received bit by MOSI is **“1”** followed by two other ones **“2’b11”**.
+> **Note:** •	If you want to know more about Specs try checking the Design Repository: [SPI Slave with single port RAM](https://github.com/MohamedHussein27/SPI_Slave_With_Single_Port_Memory)
 
 ---
 
@@ -41,3 +42,24 @@ The testbench is modular and reusable, leveraging **multiple UVM agents** and **
   - Used instead of configuration objects for signal sharing to keep setup lightweight and accessible.
 
 ---
+
+## Verification
+> **Note:** In QuestaSim simulation snapshots, the Wrapper will be highlighted in gold, while the Slave in cyan and RAM in dark red for clarity and differentiation.
+
+### SPI Wrapper
+
+- UVM Structure
+![Wrapper UVM](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/SPI%20UVM%20Structure.png)
+
+- Full Waveform
+![Full Wrapper](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/Full%20Wrapper.png)
+
+- Functional Coverage **100%**
+![Functoinal Wrapper](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/Functional%20Wrapper.png)
+
+- Assertions Coverage 
+![Assertions Wrapper](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/Assertions%20Wrapper.png)
+All assertions are passed!
+
+- UVM Report
+![Report Wrapper](https://github.com/MohamedHussein27/SPI-Slave-with-RAM-UVM/blob/main/Images/Report%20Wrapper.png)
